@@ -1,0 +1,18 @@
+* {
+    margin: 1em;
+    padding: 0;
+}
+
+h1 {
+    margin: 1em 15px;
+}
+
+div.txt {
+    background-color: #34495E ;
+    border-radius: 20px;
+    padding: 21px;
+}
+
+div.txt > p {
+    color: #fff;
+}
