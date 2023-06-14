@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Work 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <form action="" method="post">
-        <h1>Регистрация</h1>
-        <input name="email" placeholder="Эл. почта" type="text">
-        <input name="pass" placeholder="Пароль" type="text">
-        <div>
-            <p>Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.</p>
+    <div id="pop_up">
+        <div id="close">
+            <img src="./Icons/Close.svg" alt="close">
         </div>
-        <button class="yellow">
-            Зарегистрироваться
-        </button>
-        <button>
-            Войти
-        </button>
-    </form>
+        <div class="content">
+            <form action="" method="post">
+                <h1>Регистрация</h1>
+                <input name="email" placeholder="Email" type="text">
+                <input name="pass" placeholder="Пароль" type="text">
+                <div>
+                    <p>Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.</p>
+                </div>
+                <button class="yellow">
+                    Зарегистрироваться
+                </button>
+                <button>
+                    Войти
+                </button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
