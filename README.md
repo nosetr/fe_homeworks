@@ -1,5 +1,10 @@
 # Frontend-Homeworks
 
+### Main class: Basic FE - 20.06.2023:
+>**1 уровень сложности:** https://docs.google.com/document/d/1lJVAXwtt_wcH7kzHNRpa97dADGmXDUjc/edit
+
+Link to [home5](https://github.com/nosetr/fe_homeworks/tree/6faa9c0d7a666c19ae3df582c6948bc6bfec637a/home_5)
+
 ### Summary session: Basic FE - 19.06.2023:
 >**1 уровень сложности:**
 >- https://github.com/VazgenDav2021/300523-m ссылка на материалы
