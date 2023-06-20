@@ -30,9 +30,9 @@
     height: 724px;
 }
 
-#sec1 svg {
+/* #sec1 svg {
     margin-top: 131px;
-}
+} */
 
 #sec1 p {
     color: #FCFDFE;
@@ -52,7 +52,7 @@
 }
 
 #sec2::before {
-    background: url(../img/points_2.svg);
+    /* background: url(../img/points_2.svg); */
     background-position: 1432px 500px;
 }
 
@@ -96,11 +96,11 @@
     background-size: cover;
 }
 
-#sec4 svg {
+/* #sec4 svg {
     position: absolute;
     top: -530px;
     left: 0;
-}
+} */
 
 #sec4 .row.list {
     justify-content: flex-start;
@@ -136,24 +136,8 @@
     line-height: 20px;
 }
 
-#sec5 .card:nth-child(2) h4:before {
-    content: 'Stage 1';
-}
-
-#sec5 .card:nth-child(3) h4:before {
-    content: 'Stage 2';
-}
-
-#sec5 .card:nth-child(4) h4:before {
-    content: 'Stage 3';
-}
-
-#sec5 .card:nth-child(5) h4:before {
-    content: 'Stage 4';
-}
-
-#sec5 .card:nth-child(6) h4:before {
-    content: 'Stage 5';
+#sec5 .card h4:before {
+    content: 'Stage ' attr(data-stage);
 }
 
 /* section 6 */
