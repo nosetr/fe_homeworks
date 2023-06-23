@@ -37,7 +37,7 @@ console.log(`Число ${txt} 100`)
 *   пользователь несовершеннолетний.
 */
 const fName = prompt('Введите ваше имя'),
-    age =  prompt('Введите ваш возраст')
+    age =  +prompt('Введите ваш возраст')
 let grt
 if(age < 18){
     grt = 'Hi'
