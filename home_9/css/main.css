@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: dimgrey;
+        color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html, body {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+body, button, p {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    margin: 20px;
+}
+
+button::after {
+    content: 'Click me';
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #a00;
+}
+
+.dv1.active {
+    width: 100px;
+    height: 100px;
+    background-color: #144214;
+}
