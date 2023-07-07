@@ -1,5 +1,10 @@
 # Frontend-Homeworks
 
+### Main class: Basic FE - 07.07.2023:
+>**1 уровень сложности:** https://docs.google.com/document/d/1K9mudqA6yufWhX0bl-j3S347z3N-dh8r/edit
+
+Link to [home10](https://github.com/nosetr/fe_homeworks/tree/d9e4156d18cfd33dc60badfc999dc6c038abc7f1/home_10)
+
 ### Main class: Basic FE - 04.07.2023:
 >**1 уровень сложности:** https://docs.google.com/document/d/13_oqVJ3vLXWmQz24AM9Afm55i8BJVvNU/edit
 
